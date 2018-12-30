@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"receiver"
+			],
+			[
+				"sc",
+				"script"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <!-- meta -->\n  <meta charset=\"utf-8\">\n  <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\n\n  <title>Josue N Rivera</title>\n  <meta content=\"josue nathanael rivera valdez\" name=\"keywords\">\n  <meta content=\"\" name=\"description\">\n\n  <!-- Google Fonts -->\n  <link href=\"https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i\" rel=\"stylesheet\">\n\n  <!-- Bootstrap CSS File -->\n  <link href=\"lib/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n  <!-- Libraries CSS Files -->\n  <link href=\"lib/ionicons/css/ionicons.min.css\" rel=\"stylesheet\">\n  <link href=\"lib/owlcarousel/assets/owl.carousel.min.css\" rel=\"stylesheet\">\n  <link href=\"lib/magnific-popup/magnific-popup.css\" rel=\"stylesheet\">\n  <link href=\"lib/hover/hover.min.css\" rel=\"stylesheet\">\n\n  <!-- Main Stylesheet File -->\n  <link href=\"css/style.css\" rel=\"stylesheet\">\n\n  <!-- Responsive css -->\n  <link href=\"css/responsive.css\" rel=\"stylesheet\">\n\n  <!-- Favicon -->\n  <link rel=\"shortcut icon\" href=\"images/favicon.png\">\n</head>\n\n<body>\n\n  <!-- start section navbar -->\n  <nav id=\"main-nav\">\n    <div class=\"row\">\n      <div class=\"container\">\n\n        <div class=\"logo\">\n          <a href=\"index.html\"><img src=\"images/logo.png\" alt=\"logo\"></a>\n        </div>\n\n        <div class=\"responsive\"><i data-icon=\"m\" class=\"ion-navicon-round\"></i></div>\n\n        <ul class=\"nav-menu list-unstyled\">\n          <li><a href=\"#header\" class=\"smoothScroll\">Home</a></li>\n          <li><a href=\"#about\" class=\"smoothScroll\">About</a></li>\n          <li><a href=\"#portfolio\" class=\"smoothScroll\">Portfolio</a></li>\n          <li><a href=\"#journal\" class=\"smoothScroll\">Blog</a></li>\n          <li><a href=\"#contact\" class=\"smoothScroll\">Contact</a></li>\n        </ul>\n\n      </div>\n    </div>\n  </nav>\n  <!-- End section navbar -->\n\n\n  <!-- start section header -->\n  <div id=\"header\" class=\"home\">\n\n    <div class=\"container\">\n      <div class=\"header-content\">\n        <h2>Hello. My name is Josue N Rivera</h2>\n        <h1>And I'm <span class=\"typed\"></span></h1>\n\n        <ul class=\"list-unstyled list-social\">\n          <li><a href=\"#\"><i class=\"ion-social-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-instagram\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-googleplus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-github\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-dribbble\"></i></a></li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <!-- End section header -->\n\n\n  <!-- start section about us -->\n  <div id=\"about\" class=\"paddsection\">\n    <div class=\"container\">\n      <div class=\"row justify-content-between\">\n\n        <div class=\"col-lg-4 \">\n          <div class=\"div-img-bg\">\n            <div class=\"about-img\">\n              <img src=\"images/me.jpg\" class=\"img-responsive\" alt=\"me\">\n            </div>\n          </div>\n        </div>\n\n        <div class=\"col-lg-7\">\n          <div class=\"about-descr\">\n\n            <p class=\"p-heading\">im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>\n            <p class=\"separator\">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person.</p>\n\n          </div>\n\n        </div>\n      </div>\n    </div>\n  </div>\n  <!-- end section about us -->\n\n\n  <!-- start section services -->\n  <div id=\"services\">\n    <div class=\"container\">\n\n        <div class=\"services-carousel owl-theme\">\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-ios-browsers-outline\"></i>\n            <span>UI/UX DESIGN</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-ios-lightbulb-outline\"></i>\n            <span>BRAND IDENTITY</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-ios-color-wand-outline\"></i>\n            <span>WEB DESIGN</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-social-android-outline\"></i>\n            <span>MOBILE APPS</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-ios-analytics-outline\"></i>\n            <span>Analytics</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n          <div class=\"services-block\">\n\n            <i class=\"ion-ios-camera-outline\"></i>\n            <span>PHOTOGRAPHY</span>\n            <p class=\"separator\">To an English person, it will seem like simplified English,told me what </p>\n\n          </div>\n\n        </div>\n\n    </div>\n\n  </div>\n  <!-- end section services -->\n\n\n  <!-- start section portfolio -->\n  <div id=\"portfolio\" class=\"text-center paddsection\">\n\n    <div class=\"container\">\n      <div class=\"section-title text-center\">\n        <h2>My Portfolio</h2>\n      </div>\n    </div>\n\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-md-12\">\n\n          <div class=\"portfolio-list\">\n\n            <ul class=\"nav list-unstyled\" id=\"portfolio-flters\">\n              <li class=\"filter filter-active\" data-filter=\".all\">all</li>\n              <li class=\"filter\" data-filter=\".branding\">branding</li>\n              <li class=\"filter\" data-filter=\".mockups\">mockups</li>\n              <li class=\"filter\" data-filter=\".uikits\">ui kits</li>\n              <li class=\"filter\" data-filter=\".webdesign\">web design</li>\n              <li class=\"filter\" data-filter=\".photography\">photography</li>\n            </ul>\n\n          </div>\n\n          <div class=\"portfolio-container\">\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign\">\n              <a class=\"popup-img\" title=\"\n              \n              Hello World Hello World Hello World Hello \n              <a href='www.google.com' class='popup_custom-link'>Here<a>\n              \n              \" href=\"images/portfolio/1.jpg\">\n                <img src=\"images/portfolio/1.jpg\" alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits photography\">\n              <a class=\"popup-img\" href=\"images/portfolio/2.jpg\">\n                <img src=\"images/portfolio/2.jpg\"  alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all branding webdesig photographyn\">\n              <a class=\"popup-img\" href=\"images/portfolio/3.jpg\">\n                <img src=\"images/portfolio/3.jpg\" alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography\">\n              <a class=\"popup-img\" href=\"images/portfolio/4.jpg\">\n                <img src=\"images/portfolio/4.jpg\" alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography\">\n              <a class=\"popup-img\" href=\"images/portfolio/5.jpg\">\n                <img src=\"images/portfolio/5.jpg\" alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n            <div class=\"col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign\">\n              <a class=\"popup-img\" href=\"images/portfolio/6.jpg\">\n                <img src=\"images/portfolio/6.jpg\" alt=\"img\">\n                <h3>Cool</h3>\n              </a>\n            </div>\n\n          </div>\n        </div>\n      </div>\n    </div>\n\n  </div>\n  <!-- End section portfolio -->\n\n\n  <!-- start section journal -->\n  <div id=\"journal\" class=\"text-left paddsection\">\n\n    <div class=\"container\">\n      <div class=\"section-title text-center\">\n        <h2>journal</h2>\n      </div>\n    </div>\n\n    <div class=\"container\">\n      <div class=\"journal-block\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-4 col-md-6\">\n            <div class=\"journal-info\">\n\n              <a href=\"blog-single.html\"><img src=\"images/blog-post-1.jpg\" class=\"img-responsive\" alt=\"img\"></a>\n\n              <div class=\"journal-txt\">\n\n                <h4><a href=\"blog-single.html\">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>\n                <p class=\"separator\">To an English person, it will seem like simplified English\n                </p>\n\n              </div>\n\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6\">\n            <div class=\"journal-info\">\n\n              <a href=\"blog-single.html\"><img src=\"images/blog-post-2.jpg\" class=\"img-responsive\" alt=\"img\"></a>\n\n              <div class=\"journal-txt\">\n\n                <h4><a href=\"#blog-single.html\">WE'RE GONA MAKE DREAMS COMES</a></h4>\n                <p class=\"separator\">To an English person, it will seem like simplified English\n                </p>\n\n              </div>\n\n            </div>\n          </div>\n\n          <div class=\"col-lg-4 col-md-6\">\n            <div class=\"journal-info\">\n\n              <a href=\"blog-single.html\"><img src=\"images/blog-post-3.jpg\" class=\"img-responsive\" alt=\"img\"></a>\n\n              <div class=\"journal-txt\">\n\n                <h4><a href=\"blog-single.html\">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>\n                <p class=\"separator\">To an English person, it will seem like simplified English\n                </p>\n\n              </div>\n\n            </div>\n          </div>\n\n        </div>\n      </div>\n    </div>\n\n  </div>\n  <!-- End section journal -->\n\n\n  <!-- start sectoion contact -->\n  <div id=\"contact\" class=\"paddsection\">\n    <div class=\"container\">\n      <div class=\"contact-block1\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-6\">\n            <div class=\"contact-contact\">\n\n              <h2 class=\"mb-30\">GET IN TOUCH</h2>\n\n              <ul class=\"contact-details\">\n                <li><span>23 Main, Street</span></li>\n                <li><span>New York, United States</span></li>\n                <li><span>+88 01912704287</span></li>\n                <li><span>example@example.com</span></li>\n              </ul>\n\n            </div>\n          </div>\n\n          <div class=\"col-lg-6\">\n            <form action=\"\" method=\"post\" role=\"form\" class=\"contactForm\">\n              <div class=\"row\">\n\n                <div id=\"sendmessage\">Your message has been sent. Thank you!</div>\n                <div id=\"errormessage\"> Sorry, but there was an error with your email. </div>\n\n                <div class=\"col-lg-6\">\n                  <div class=\"form-group contact-block1\">\n                    <input type=\"text\" name=\"name\" class=\"form-control\" id=\"name\" placeholder=\"Your Name\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 4 chars\" />\n                    <div class=\"validation\"></div>\n                  </div>\n                </div>\n\n                <div class=\"col-lg-6\">\n                  <div class=\"form-group\">\n                    <input type=\"email\" class=\"form-control\" name=\"email\" id=\"email\" placeholder=\"Your Email\" data-rule=\"email\" data-msg=\"Please enter a valid email\" />\n                    <div class=\"validation\"></div>\n                  </div>\n                </div>\n\n                <div class=\"col-lg-12\">\n                  <div class=\"form-group\">\n                    <input type=\"text\" class=\"form-control\" name=\"subject\" id=\"subject\" placeholder=\"Subject\" data-rule=\"minlen:4\" data-msg=\"Please enter at least 8 chars of subject\" />\n                    <div class=\"validation\"></div>\n                  </div>\n                </div>\n\n                <div class=\"col-lg-12\">\n                  <div class=\"form-group\">\n                    <textarea class=\"form-control\" name=\"message\" rows=\"12\" data-rule=\"required\" data-msg=\"Please write something for us\" placeholder=\"Message\"></textarea>\n                    <div class=\"validation\"></div>\n                  </div>\n                </div>\n\n                <div class=\"col-lg-12\">\n                  <input type=\"submit\" class=\"btn btn-defeault btn-send\" value=\"Send message\">\n                </div>\n\n              </div>\n            </form>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <!-- start sectoion contact -->\n\n\n  <!-- start section footer -->\n  <div id=\"footer\" class=\"text-center\">\n    <div class=\"container\">\n      <div class=\"socials-media text-center\">\n\n        <ul class=\"list-unstyled\">\n          <li><a href=\"#\"><i class=\"ion-social-facebook\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-twitter\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-instagram\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-googleplus\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-tumblr\"></i></a></li>\n          <li><a href=\"#\"><i class=\"ion-social-dribbble\"></i></a></li>\n        </ul>\n\n      </div>\n\n      <p>&copy; Josue N Rivera. Updated: 2018</p>\n\n    </div>\n  </div>\n  <!-- End section footer -->\n\n  <!-- JavaScript Libraries -->\n  <script src=\"lib/jquery/jquery.min.js\"></script>\n  <script src=\"lib/jquery/jquery-migrate.min.js\"></script>\n  <script src=\"lib/bootstrap/js/bootstrap.bundle.min.js\"></script>\n  <script src=\"lib/typed/typed.js\"></script>\n  <script src=\"lib/owlcarousel/owl.carousel.min.js\"></script>\n  <script src=\"lib/magnific-popup/magnific-popup.min.js\"></script>\n  <script src=\"lib/isotope/isotope.pkgd.min.js\"></script>\n\n  <!-- Contact Form JavaScript File -->\n  <script src=\"contactform/contactform.js\"></script>\n\n  <!-- Template Main Javascript File -->\n  <script src=\"js/main.js\"></script>\n\n</body>\n\n</html>\n",
+			"file": "index.html",
+			"file_size": 14731,
+			"file_write_time": 131753976514334223,
+			"settings":
+			{
+				"buffer_size": 14343,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contactform/contactform.js",
+			"settings":
+			{
+				"buffer_size": 3166,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contactform/contactform.php",
+			"settings":
+			{
+				"buffer_size": 282,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog-single.html",
+			"settings":
+			{
+				"buffer_size": 11630,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 12423,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/responsive.css",
+			"settings":
+			{
+				"buffer_size": 6844,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/blog.css",
+			"settings":
+			{
+				"buffer_size": 2672,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 4572,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio"
+	],
+	"file_history":
+	[
+		"/C/Users/josue/Dropbox/Codes/Python/My neural network project #2/Web App/binaryApp.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/ionicons/fonts/ionicons.svg",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/ionicons/css/ionicons.css",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/contactform/Readme.txt",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/images/home-bg.jpg",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/images/portfolio/1.jpg",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/index - Copy.html",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/magnific-popup/magnific-popup.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/typed/typed.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/magnific-popup/magnific-popup.css",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/isotope/isotope.pkgd.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/hover/hover.min.css",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/magnific-popup/magnific-popup.min.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/owlcarousel/owl.carousel.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/jquery/jquery-migrate.min.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/lib/jquery/jquery.min.js",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/css/blog.css",
+		"/C/Users/josue/Dropbox/Codes/HTML/Porfolio/Porfolio.sublime-project"
+	],
+	"find":
+	{
+		"height": 41.6
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ferror",
+			"nav",
+			"focus",
+			"of",
+			"_mfpTrigger",
+			"mainClass",
+			"addClass",
+			"_addClassToMFP",
+			"classesToadd",
+			"mainclass",
+			"magnificPopup",
+			"smoothScroll",
+			"magnificPopup",
+			"popup-img",
+			"services-carousel",
+			"carousel",
+			"owl-theme",
+			"paddsection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12974,
+								13709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "contactform/contactform.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2718,
+								2718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "contactform/contactform.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog-single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1610,
+								1610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12107,
+								12107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/responsive.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/blog.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2250,
+								2250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Porfolio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
