@@ -84,7 +84,7 @@ $(document).ready(function() {
       "Software Engineering.", "Understanding intelligence.", "Life.", "Art.", 
       "Mathematics.", "Science.", "Learning.", "Physics.",
       "Understanding the universe.", "And the future."],
-      typeSpeed: 85,
+      typeSpeed: 100,
       loop: true,
     });
   });
@@ -98,6 +98,8 @@ $(document).ready(function() {
   $('.facts-carousel').owlCarousel({
       autoplay: true,
       loop: true,
+      autoplaySpeed: 1000,
+      autoplayTimeout: 13000,
       margin: 20,
       dots: true,
       nav: true,
