@@ -1,2 +1,2 @@
 # Porfolio-Site
-Website to show case my work
+Website to showcase my work
