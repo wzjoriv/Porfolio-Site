@@ -12,5 +12,6 @@ $headers = "From: " . $_POST["name"] . " <" . $_POST["email"] . ">\r\n";
 mail($to, $subject, $msg, $headers);
 
 echo 'OK';
+echo 'OK';
 
 ?>

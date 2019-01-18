@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          //$('#errormessage').html(msg);
         }
 
       }
