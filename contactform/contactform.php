@@ -3,15 +3,14 @@
 
 $to = "Josue <josuevaldez1.com@outlook.com>";
 
-$subject = "Porfolio: " . $_POST["subject"];
+$sub = "Porfolio: " . $_POST["subject"];
 
 $msg = wordwrap($_POST["message"], 70, "\r\n");
 
-$headers = "From: " . $_POST["name"] . " <" . $_POST["email"] . ">\r\n";
+$headers = "From: " . $_POST["name"] . " <" . $_POST["email"] . ">";
 
-mail($to, $subject, $msg, $headers);
+mail($to, $sub, $msg, $headers);
 
-echo 'OK';
-echo 'OK';
+echo "OK";
 
 ?>
