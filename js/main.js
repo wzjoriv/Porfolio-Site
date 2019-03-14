@@ -81,9 +81,9 @@ $(document).ready(function() {
   $(function() {
     typed.typed({
       strings: ["Technology.", "Computer Science.", "Machine Learning.", 
-      "Software Engineering.", "Understanding intelligence.", "Life.", "Art.", 
-      "Mathematics.", "Science.", "Learning.", "Physics.",
-      "Understanding the universe.", "And the future."],
+      "Software Engineering.", "Understanding intelligence.",
+      "Understanding the universe.", "Civic Engagement.", "Life.", "Art.",
+      "Mathematics.", "Science.", "Learning.", "Physics.","The future."],
       typeSpeed: 100,
       loop: true,
     });
