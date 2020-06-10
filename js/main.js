@@ -40,7 +40,7 @@ $(document).ready(function() {
   function onScroll(event) {
     if ($('.home').length) {
       var scrollPos = $(document).scrollTop();
-      $('nav ul li a').each(function() {
+      $('nav ul li a .smoothScroll').each(function() {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
       });
