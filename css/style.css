@@ -172,6 +172,10 @@ p {
   margin-bottom: 30px;
 }
 
+ion-icon {
+  margin-bottom: -7px;
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*  Navbar Top
 /*-----------------------------------------------------------------------------------*/
@@ -262,6 +266,10 @@ nav .btn-resume {
   width: 100%;
 }
 
+#header ion-icon {
+  font-size: medium;
+  color: var(--sect);
+}
 
 #header .header-content {
   height: 100vh;
@@ -346,6 +354,11 @@ nav .btn-resume {
   background: var(--sect);
   position: relative;
   padding-bottom: 80px;
+}
+
+#facts ion-icon {
+  font-size: 40px;
+  color: var(--prim1);
 }
 
 .owl-item {
