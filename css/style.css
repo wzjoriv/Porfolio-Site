@@ -518,10 +518,15 @@ nav .btn-resume {
   padding: 5px;
 }
 
-/*.portfolio-thumbnail img {
-  max-width: 60%;
-  /*border-radius: 20%;
-}*/
+#portfolio-more {
+  margin: 0;
+  position: absolute;
+  font-size: 10rem;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .item-folio {
   position: relative;
@@ -621,13 +626,14 @@ nav .btn-resume {
 }
 
 .item-folio__project-link {
-  display: block;
+  /*display: block;*/
   color: #FFFFFF;
   box-shadow: 0 0 0 1px #FFFFFF;
   border-radius: 50%;
-  height: 4.2rem;
-  width: 4.2rem;
+  height: 3rem;
+  width: 3rem;
   text-align: center;
+  vertical-align: middle;
   z-index: 500;
   position: absolute;
   top: 3rem;
@@ -640,8 +646,12 @@ nav .btn-resume {
 }
 
 .item-folio__project-link ion-icon {
-  font-size: 1.8rem;
-  line-height: 4.2rem;
+  font-size: 2rem;
+  top: 50%;
+  margin: 0;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .item-folio__project-link::before {
