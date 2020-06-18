@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 	target = $(target);
 	$('html, body').stop().animate({
-	  'scrollTop': target.offset().top - 80
+	  'scrollTop': target.offset().top - 70
 	}, 500, 'swing', function() {
 	  window.location.hash = target.selector;
 	  $(document).on("scroll", onScroll);
@@ -99,7 +99,7 @@ $(document).ready(function() {
 	  autoplay: true,
 	  loop: true,
 	  autoplaySpeed: 1000,
-	  autoplayTimeout: 13000,
+	  autoplayTimeout: 10000,
 	  margin: 20,
 	  dots: true,
 	  nav: true,
@@ -167,15 +167,19 @@ $(document).ready(function() {
   $folioItems.each(function(i) {
 
 	$(this).on('click', function(e) {
-		  e.preventDefault();
-		  var options = {
-			  index: i,
-			  showHideOpacity: true
-		  }
 
-		  // initialize PhotoSwipe
-		  var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
-		  lightBox.init();
+		if($(e.target).parents('.item-folio__project-link').length > 0 || $(e.target).is($(this).find('.item-folio__project-link'))){
+		}else{
+			e.preventDefault();
+			var options = {
+				index: i,
+				showHideOpacity: true
+			}
+
+			// initialize PhotoSwipe
+			var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+			lightBox.init();
+		}
   	});
 
   });
