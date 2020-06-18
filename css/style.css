@@ -266,10 +266,13 @@ nav .btn-resume {
   width: 100%;
 }
 
-/*#header ion-icon {
-  font-size: medium;
-  color: var(--sect);
-}*/
+#header .print {
+  float: right;
+  margin-right: 1em;
+  margin-top: -2em;
+  color: #fff;
+  opacity: 0.75;
+}
 
 #header .header-content {
   height: 100vh;
