@@ -357,18 +357,14 @@ nav .btn-resume {
   background: var(--sect);
   position: relative;
   padding-bottom: 80px;
+  text-align: center;
 }
-
-/*#facts ion-icon {
-  font-size: 40px;
-  color: var(--prim1);
-}*/
 
 .owl-item {
   float: left;
 }
 .facts-block span {
-  margin: 10px 0;
+  margin: 0px 0;
   position: relative;
   font-size: 13px;
   color: #292929;
@@ -389,7 +385,6 @@ nav .btn-resume {
   color: var(--prim1);
   line-height: 44px;
 }
-
 
 .facts-carousel  .owl-stage-outer {
   overflow: hidden;
@@ -418,6 +413,19 @@ nav .btn-resume {
 
 .owl-nav {
   display: none;
+}
+
+.skills-carousel .owl-stage-outer {
+  overflow: hidden;
+}
+
+.skills-carousel {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.skills-carousel img{
+  width: 5rem;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -518,7 +526,7 @@ nav .btn-resume {
   /*margin-bottom: 30px;
   border: 2px solid;*/
   overflow: hidden;
-  padding: 5px;
+  padding: 0px;
 }
 
 #portfolio-more {
