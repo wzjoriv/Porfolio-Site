@@ -99,7 +99,7 @@ $(document).ready(function () {
 		autoplay: true,
 		loop: true,
 		autoplaySpeed: 2000,
-		autoplayTimeout: 9000,
+		autoplayTimeout: 8000,
 		margin: 20,
 		dots: true,
 		nav: true,
@@ -111,7 +111,7 @@ $(document).ready(function () {
 		autoplay: true,
 		loop: true,
 		autoplaySpeed: 2000,
-		autoplayTimeout: 9000,
+		autoplayTimeout: 7000,
 		margin: 20,
 		dots: false,
 		nav: true,
@@ -142,7 +142,7 @@ $(document).ready(function () {
 
 
 	// ========================================================================= //
-	//  magnificPopup
+	//  PhotoSwipe
 	// ========================================================================= //
 
 	var items = [],
