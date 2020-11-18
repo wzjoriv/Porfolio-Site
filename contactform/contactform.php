@@ -1,7 +1,7 @@
 
 <?php
 
-$to = "Josue <josuevaldez1.com@outlook.com>";
+$to = "Josue Rivera <admin@josuenrivera.site>";
 
 $sub = "Porfolio: " . $_POST["subject"];
 
