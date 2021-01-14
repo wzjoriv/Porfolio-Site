@@ -9,7 +9,10 @@ $msg = wordwrap($_POST["message"], 70, "\r\n");
 
 $headers = "From: " . $_POST["name"] . " <" . $_POST["email"] . ">";
 
-mail($to, $sub, $msg, $headers);
+if($_POST["spam_detect"] == "Sike"){}
+else{
+    mail($to, $sub, $msg, $headers);
+}
 
 echo "OK";
 
