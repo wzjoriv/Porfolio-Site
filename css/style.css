@@ -456,9 +456,9 @@ nav .btn-resume {
   color: #fff;
   font-size: 12px;
   height: 50px;
-  line-height: 50px;
-  padding: 0 30px;
+  line-height: 20px;
   padding: 10px;
+  margin: 20px 0px;
   text-transform: uppercase;
 }
 
@@ -468,6 +468,18 @@ nav .btn-resume {
 
 #experience b {
   font-weight: 500;
+}
+
+.experience-block{
+  margin: 10px 0;
+  color: #999999;
+}
+
+.experience-block p{
+  margin: 8px 0;
+  font-size: 15px;
+  line-height: auto;
+  color: #999999;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -840,4 +852,3 @@ nav .btn-resume {
 .about-btn-section{
   margin-top: 2em;
 }
-
