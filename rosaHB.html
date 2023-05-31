@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rosa's Birthday</title>
+	<link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet'>
+</head>
+<body>
+
+		<div class="content">
+			<center>
+				<h1 style="color:white;">Happy Birthday, Mom :p!!!</h1>
+
+				<p><a href="https://www.youtube.com/watch?v=cDT12zAWDuM&autoplay=1">
+					<img src="https://img.icons8.com/plasticine/2x/play-button-circled.png">
+				</a></p>
+
+				<audio id="aud_tag" autoplay controls>
+					<source src="happyB.m4a" type="audio/mp4">
+				</audio>
+				<p style="color: white;">Click play on audio</p>
+			</center>
+		</div>
+		<div id="fireworks">
+			
+		</div>
+		<style type="text/css">
+			body {
+				font-family: "Chewy";
+				background: #222222;
+				display: table-cell;
+    			vertical-align: middle;
+			}
+			html, body {
+			    height: 100%;
+			}
+
+			html {
+			    display: table;
+			    margin: auto;
+			}
+
+			#fireworks {
+				position: fixed;
+				display: block;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				z-index: -1;
+			}
+
+		</style>
+		<script type="text/javascript">
+			const fire_length = 18;
+			const fire_tag = document.getElementById("fireworks");
+			const aud_tag = document.getElementById("aud_tag");
+
+			function createFire() {
+			  var fire = document.createElement("IMG");
+			  fire.src = "https://i.gifer.com/VZvx.gif";
+
+			  return fire;
+			}
+
+			aud_tag.addEventListener("canplaythrough", event => {
+				aud_tag.stop();
+				aud_tag.volume = 80;
+				aud_tag.currentTime = 0;
+			});
+
+			setInterval(function(){
+				while(fire_tag.childNodes.length >= fire_length){
+					fire_tag.removeChild(fire_tag.childNodes[0]);
+				}
+				fire = createFire();
+				fire = fire_tag.appendChild(fire);
+
+			 	fire.style.position = "absolute";
+				fire.style.top = Math.floor((Math.random() * 80) + 1) + "%";
+				fire.style.left = Math.floor((Math.random() * 80) + 1) + "%";
+				fire.style.filter = "hue-rotate(" + Math.floor((Math.random() * 360) + 1) + "deg)";
+			}, 3000);
+
+		</script>
+</body>
+</html>
